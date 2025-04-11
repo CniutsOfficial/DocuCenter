@@ -32,7 +32,12 @@ jobs:
         uses: borales/actions-yarn@v4
         with:
           cmd: install
+      - name: Update Yarn Version
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: upgrade-interactive --latest
 
+          
       # 运行构建脚本
       # Run the build script
       - name: Build VuePress site
