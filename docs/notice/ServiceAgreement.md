@@ -94,7 +94,7 @@ permalink: /notice/service-agreement/
 
 #### 6.1 联系方式 
 
- - 官方邮箱：**cniuts@hotmail.com** 
+ - 官方邮箱：**cniuts@outlook.com** 
  - 一般咨询将**在144小时内回复**
 
 #### 6.2 条款变更 
