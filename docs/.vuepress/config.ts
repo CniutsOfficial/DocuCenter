@@ -3,7 +3,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/',
+  base: '/DocuCenter/',
   lang: 'zh-CN',
   title: 'DocuCenter',
   description: '初桐小栈的文档中心',
