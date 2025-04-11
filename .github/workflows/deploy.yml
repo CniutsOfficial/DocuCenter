@@ -26,18 +26,18 @@ jobs:
           # 选择要使用的 node 版本
           node-version: 22
 
-
+      - name: Update Yarn Version
+        uses: borales/actions-yarn@v4
+        with:
+            cmd: upgrade-interactive --latest
 
       - name: Run install
         uses: borales/actions-yarn@v4
         with:
           cmd: install
-      - name: Update Yarn Version
-        uses: borales/actions-yarn@v4
-        with:
-          cmd: upgrade-interactive --latest
 
-          
+
+
       # 运行构建脚本
       # Run the build script
       - name: Build VuePress site
